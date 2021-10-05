@@ -1,0 +1,160 @@
+marquee {
+  font-size: 38px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: brown;
+  background-color: cadetblue;
+}
+.menu ul {
+  margin: 0px;
+  background-color: #7fffd4;
+  list-style: none;
+  text-align: right;
+}
+
+.menu ul li {
+  display: inline;
+}
+.menu ul li a {
+  padding: 10px 10px;
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+}
+.menu ul li a:hover {
+  color: #d3d3d3;
+}
+
+.menu ul li a {
+  background-color: aqua;
+  font-family: arial;
+  font-size: 20px;
+  color: blue;
+  text-align: right;
+}
+
+.rodape ul {
+  margin: 0px;
+  background-color: #7fffd4;
+  list-style: none;
+  text-align: right;
+}
+.rodape ul li {
+  display: inline;
+}
+.rodape ul li a {
+  padding: 10px 10px;
+  display: inline-block;
+  color: blue;
+  text-decoration: none;
+}
+.rodape ul li a:hover {
+  color: #d3d3d3;
+}
+
+.rodape {
+  background-color: aqua;
+  font-family: arial;
+  font-size: 20px;
+  color: blue;
+  text-align: right;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap");
+.container {
+  background: #ecf4ff;
+  color: #1c1c1c;
+  margin: 64px;
+  border-radius: 20px;
+  border-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+}
+body {
+  background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
+  font-family: "Roboto", sans-serif;
+}
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+.perfil {
+  display: flex;
+}
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0.25);
+}
+.titulo {
+  marqin-left: 16px;
+}
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+.tema button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  border-radius: 100px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+  margin-top: 32px;
+  padding: 32px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+.projetos-titulo {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projetos h4 {
+  margin: 0px;
+  list-style: none;
+  text-align: left;
+  font-size: 20px;
+  font-weigth: 250;
+}
+.projetos h4 ul li {
+  display: inline;
+}
+.projetos h4 ul li a {
+  padding: 10px 10px;
+  color: blue;
+  text-decoration: none;
+}
+.projetos h4 ul a:hover {
+  color: #d3d3d3;
+}
+.dark {
+  background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+}
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+}
+.dark .projetos {
+  color: #1c1c1c;
+}
+.dark .tema button {
+  background: #1c1c1c;
+  color: #ffffff;
+  border: 2px solid #f7f7f7;
+}
